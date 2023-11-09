@@ -2,3 +2,10 @@
 
 <p><strong>Title: </strong><%= @article.title%> </p>
 <p><strong>Description: </strong> <%= @article.description %> </p>
+
+<p>
+    <%= link_to 'edit', edit_article_path(@article) %>|
+    <%= link_to 'Return', articles_path(@articles) %>
+    <%= button_to 'Delete', article_path(@article), method: :delete, onclick: "return confirm('Are you sure you want to delete this article?');" %> |
+</p>
+
