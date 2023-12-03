@@ -77,3 +77,7 @@ group :production do
   gem "pg"
 end
 gem "byebug", "~> 11.1", :groups => [:development, :test]
+
+gem "cssbundling-rails", "~> 1.3"
+
+gem "jsbundling-rails", "~> 1.2"
