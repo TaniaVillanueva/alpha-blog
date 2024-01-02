@@ -2,6 +2,15 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "bootstrap"
+import "popper"
 import React from "react"
 import ReactDOM from "react-dom"
 import * as bootstrap from "bootstrap"
+
+//= require rails-ujs
+//= require jquery3
+//= require popper
+//= require bootstrap
+//= require activestorage
+//= require turbolinks
+//= require_tree .
