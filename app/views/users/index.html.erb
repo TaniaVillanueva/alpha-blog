@@ -12,7 +12,7 @@
             <h5 class="card-title">
               <%= link_to gravatar_for(user, size: 150), user %>
             </h5>
-            <p class="card-text"><%= pluralize(user.articles.count, "article") %></p> <! -- y conteo de articulos por usuario-->
+            <p class="card-text"><%= pluralize(user.articles.count, "article") %></p> <! -- y conteo de articulos por usuario -->
             <%= link_to "View profile", user, class: "btn btn-outline-success" %>
             <%= link_to "Edit profile", edit_user_path(user), class: "btn btn-outline-info" %>
           </div>
