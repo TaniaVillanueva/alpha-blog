@@ -1,5 +1,7 @@
 require_relative "boot"
-
+require 'will_paginate'
+require 'will_paginate/array'
+require 'pagy'
 require "rails/all"
 
 # Require the gems listed in Gemfile, including any gems
