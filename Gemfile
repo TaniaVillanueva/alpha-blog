@@ -6,6 +6,7 @@ ruby "3.2.2"
 gem "bootstrap"
 gem 'jquery-rails'
 gem "sassc-rails"
+gem 'rexml', require: false
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.8"
